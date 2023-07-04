@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+    /* Navbar component styling  */
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C3E50;
+    color: white;
+    padding: 33px 105px;
+}
+.rightnav{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/* Strat boot strap content desing  */
+.StartBootStrap{
+   background-color: rgb(26,188,156);
+   color: white;
+   /* height: 85vh; */
+}
+.start-boot-container{
+    margin: 0px 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+}
+
+#start-img{
+    width: 250px;
+}
+.line-star{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.line{
+
+    background-color: white;
+    padding: 2px 3px;
+    width: 91px;
+    border-radius: 6px;
+}
+
+/* Styling portfolio section  */
+.Portfolio h1{
+    align-items: center;
+    margin-top: 80px;
+}
+.portfolio-container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 79%;
+    margin: auto;
+    row-gap: 28px;
+    column-gap: 30px;
+}
+.portfolio-items img{
+    width: 340px;
+    border-radius: 10px;
+}
+.port-line-star{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.port-line-star img{
+    
+}
+.port-line{
+
+    background-color: black;
+    padding: 2px 3px;
+    width: 91px;
+    border-radius: 6px;
+}
