@@ -11,6 +11,8 @@
     background-color: #2C3E50;
     color: white;
     padding: 33px 105px;
+    position:sticky;
+    top: 0;
 }
 .rightnav{
     display: flex;
@@ -51,7 +53,7 @@
 
 /* Styling portfolio section  */
 .Portfolio h1{
-    align-items: center;
+    text-align: center;
     margin-top: 80px;
 }
 .portfolio-container{
@@ -73,13 +75,90 @@
     justify-content: center;
     margin-bottom: 30px;
 }
-.port-line-star img{
-    
-}
+
 .port-line{
 
     background-color: black;
     padding: 2px 3px;
     width: 91px;
     border-radius: 6px;
+}
+
+
+/* About component styling  */
+
+.AboutComponent{
+    background-color: rgb(26,188,156);
+    padding: 30px 0px;
+    margin: 70px 0px;
+}
+.about-content-container{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    gap: 30px;
+}
+.about-content-container div{
+    width: 400px;
+    color: white;
+}
+.about-content-container div p{
+    line-height: 24px;
+    word-spacing: 3px;
+    font-size: 18px;
+}
+.AboutComponent h1{
+    text-align: center;
+    color: white;
+}
+.about-line-star{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.about-line{
+    background-color: white;
+    padding: 2px 3px;
+    width: 91px;
+    border-radius: 6px;
+}
+.about-download-button{
+        text-align: center;
+        width: 188px;
+        margin: 20px 45%;
+        border: 2px solid white;
+        background-color:  rgb(26,188,156);
+        border-radius: 5px;
+        padding: 4px 10px;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+}
+
+/* Contact container styling  */
+.ContactContainer h1{
+ text-align: center;
+}
+
+.contact-input-container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 65%;
+    margin: auto;
+}
+.contact-input-container input{
+    border: none;
+    border-bottom: 1px solid #CFD5DA;
+    padding-bottom: 10px;
+}
+.contact-input-container label{
+    color: #6C747C;
+    margin-top: 15px;
+    font-size: 19px;
+}
+#message-input{
+    padding-top: 70px;
 }
